@@ -59,7 +59,7 @@
 .popover {
     background: #FAFAFA;
     width: 100%;
-    positive: relative;
+    position: relative;
     display: none;
     border: #DDDDDD 1px solid;
     border-radius: 4px;
