@@ -19,24 +19,31 @@
     border-radius: 4px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .places {
     display: flex;
     margin-top: 10px;
     flex-direction: row;
+    width: 100%;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
 }
 
-.places price_by_night {
+.places article .price_of_night {
     color: #FF5A5F;
-    border: #FF5A5F 1px solid;
-    border-radius: 4px;
+    border: #FF5A5F 4px solid;
+    border-radius: 100%;
     min-width: 60px;
     height: 60px;
     font-size: 30px;
+    position: absolute;
+    right: 18px;
+    line-height: 2em;
+    top: 10px;
+
 }
 
 .places max_guest {
