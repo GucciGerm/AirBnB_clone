@@ -4,6 +4,11 @@
     flex: 100%;
 }
 
+.user {
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
 .places h2 {
     font-size: 30px;
     position: relative;
