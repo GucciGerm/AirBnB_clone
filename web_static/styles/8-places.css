@@ -51,13 +51,14 @@
     justify-content: center;
     border-top: #DDDDDD 1px solid;
     border-bottom: #DDDDDD 1px solid;
+    padding-top: 5px;
 }
 
 .information .max_guest {
     width: 100px;
     background: url("../images/icon_group.png") no-repeat center;
     padding-left: 40px;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 15px;
 
 }
@@ -66,7 +67,7 @@
     width: 100px;
     background: url("../images/icon_bed.png") no-repeat center;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 15px;
 }
 
@@ -74,6 +75,6 @@
     width: 100px;
     background: url("../images/icon_bath.png") no-repeat center;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 15px;
 }
