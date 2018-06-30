@@ -55,22 +55,25 @@
 
 .information .max_guest {
     width: 100px;
+    background: url("../images/icon_group.png") no-repeat center;
     padding-left: 3px;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 15px;
 
 }
 
 .information .number_rooms {
     width: 100px;
+    background: url("../images/icon_bed.png") no-repeat center;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 15px;
 }
 
 .information .number_bathrooms {
     width: 100px;
+    background: url("../images/icon_bath.png") no-repeat center;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 15px;
 }
