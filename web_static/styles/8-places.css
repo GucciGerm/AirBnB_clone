@@ -6,6 +6,8 @@
 
 .places h2 {
     font-size: 30px;
+    position: relative;
+    text-align: center;
 }
 
 .places article {
@@ -24,14 +26,15 @@
     margin-top: 10px;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: center;
+    position: relative;
+    justify-content: center;
 }
 
 .places price_by_night {
     color: #FF5A5F;
     border: #FF5A5F 1px solid;
     border-radius: 4px;
-    min_width: 60px;
+    min-width: 60px;
     height: 60px;
     font-size: 30px;
 }
@@ -46,8 +49,4 @@
 
 .places number_bathrooms {
     width: 100px;
-}
-
-.user, .description {
-    text-align: left;
 }
